@@ -1,11 +1,5 @@
 # profile_card
 
-
-
-
-# Profile Card
-
-# Profile Card
 Awesome  Profile Card
 
 # Language
@@ -14,8 +8,9 @@ Awesome  Profile Card
 
 
 
-# Font Poppins
-[View]()
+# Font 
+* Poppins
+[View](https://fonts.google.com/specimen/Poppins)
 
 # Icon
 * fontawesome
@@ -29,5 +24,5 @@ Awesome  Profile Card
 
 
 # Preview
-![This is an image](https://raw.githubusercontent.com/LearnCodingEasy/profile_card/main/images/Previw.jpg)
+![This is an image](https://raw.githubusercontent.com/LearnCodingEasy/profile_card/main/image/Previw.jpg)
 
