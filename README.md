@@ -29,5 +29,5 @@ Awesome  Profile Card
 
 
 # Preview
-![This is an image](https://raw.githubusercontent.com/LearnCodingEasy/profile_card/main/dist/images/Navbar-1920.jpg)
+![This is an image](https://raw.githubusercontent.com/LearnCodingEasy/profile_card/main/dist/images/Previw.jpg)
 
