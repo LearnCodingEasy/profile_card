@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f2c2;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+/* For Scrollbar */
+::-webkit-scrollbar {
+  width: 1rem;
+  background-color: #333;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bbbbbb;
+  border-radius: 0.25rem;
+}
+.wrapper {
+  width: 500px;
+  height: 800px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4rem;
+}
+.wrapper .inner {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .inner .card {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wrapper .inner .card header {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  background-image: url('../image/back.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .inner .card header .img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.wrapper .inner .card header .img img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+
+  transform: scale(1.5) translate(0, 1rem);
+}
+
+.wrapper .inner .card main {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.wrapper .inner .card main .name {
+}
+.wrapper .inner .card main .name .title {
+  font-weight: bold;
+  font-size: 3vw;
+}
+.wrapper .inner .card main .name .subtitle {
+  font-size: 1.5vw;
+}
+/* */
+.wrapper .inner .card main .social {
+  margin: 2rem 0;
+}
+.wrapper .inner .card main .social ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper .inner .card main .social ul li {
+  list-style: none;
+}
+.wrapper .inner .card main .social ul li a {
+  color: #000;
+}
+.wrapper .inner .card main .social ul li a i {
+  font-size: 1.5rem;
+}
+.wrapper .inner .card main .social {
+}
+.wrapper .inner .card footer {}
+.wrapper .inner .card footer .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .inner .card footer .button a {
+  margin: 0 1rem;
+  padding: 0.8rem 2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid rgb(40, 40, 40);
+  text-decoration: none;
+  color: #000;
+}
+.wrapper .inner .card footer .button a.active {
+  background-color: #E04088;
+  border: none;
+  color: #fff;
+}
+.wrapper .inner .card footer .button a i{}
+.wrapper .inner .card footer .button a span{}
