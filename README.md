@@ -24,5 +24,9 @@ Awesome  Profile Card
 
 
 # Preview
+<<<<<<< HEAD
 ![This is an image](https://raw.githubusercontent.com/LearnCodingEasy/profile_card/main/image/Previw.jpg)
+=======
+![This is an image](https://raw.githubusercontent.com/LearnCodingEasy/profile_card/main/dist/images/Previw.jpg)
+>>>>>>> d61365acf642e9c2bd38fc26069ff49dbb3295fb
 
